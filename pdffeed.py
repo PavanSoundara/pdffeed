@@ -53,6 +53,8 @@ def filterObjs(obj, x, codec=None):
         return
 
     if isinstance(obj, list):
+        for v in obj:
+            filterObjs(v, x)
         return
 
     if isinstance(obj, (six.string_types, six.binary_type)):
