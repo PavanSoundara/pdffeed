@@ -7,6 +7,6 @@ Example Usage
 ------------
 For globally accessing pdffeed module, copy the pdffeed.py file to ``your-python-path/site-packages``.
 ```
- >>> import pdffeed
- >>> links = pdffeed.feeder(['http://pavansoundara.com/files/PavanSoundara-Resume.pdf'])
+import pdffeed
+links = pdffeed.feeder(['http://pavansoundara.com/files/PavanSoundara-Resume.pdf'])
 ```
