@@ -10,8 +10,9 @@ For this module to work, it needs PDFMiner installed.
 
 
 ### Example Usage
-For globally accessing pdffeed module, copy the pdffeed.py file to ``your-python-path/site-packages``.
+pdffeed works with both local files and urls.For globally accessing pdffeed module, copy the pdffeed.py file to ``your-python-path/site-packages``.
 ```
 import pdffeed
 links = pdffeed.feeder(['http://pavansoundara.com/files/PavanSoundara-Resume.pdf'])
+file_links = pdffeed.feeder(['sample.pdf'])
 ```
