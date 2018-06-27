@@ -31,7 +31,7 @@ class TestPdfFeed(unittest.TestCase):
         "https://www.linkedin.com/in/pavansoundara",
         "http://web.archive.org/web/20150618014223/http://www.beclasses.com:80/",
         "http://pavansoundara.com/lp.jpg",
-        "https://sharemyworks.com",
+        "https://www.sharemyworks.com",
         "https://github.com/PavanSoundara/Facial-expression-recognition",
         "https://github.com/teamvaps/Intelligent-Help-Desk",
         "http://pavansoundara.com/folio/flyer-landscape.png",
