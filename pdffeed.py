@@ -103,6 +103,7 @@ def readPdf( stream, x, objids, pagenos, password='',
         raise
     if dumpall:
         getAllObjs(doc, x, codec=codec)
+    stream.close()
     return x
 
 #Get all the links in the pdf files
